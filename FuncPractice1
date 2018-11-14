@@ -1,0 +1,9 @@
+def findAge ():
+	name = input ("Enter your Name: ")
+	age = int(input ("Enter your age: "))
+	x = int(input("Enter a number between 0 - 3:  "))
+	year = 100 - age + 2018
+	while x < 1 | x > 3:
+		x = int(input ("Sorry please enter a valid number between 0 - 3: "))
+	print (x * ("\n" + name + "you will be 100 in year: " + str(year)))
+findAge()
